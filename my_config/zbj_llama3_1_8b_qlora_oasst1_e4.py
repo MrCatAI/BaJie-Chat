@@ -28,7 +28,7 @@ pretrained_model_name_or_path = '/root/share/new_models/meta-llama/Meta-Llama-3_
 use_varlen_attn = False
 
 # Data
-data_files = ['/root/demo/llama3_1/Llama3-Tutorial/zbj.jsonl']
+data_files = ['dataset/zbj.jsonl']
 prompt_template = PROMPT_TEMPLATE.llama3_chat
 max_length = 512
 pack_to_max_length = True
