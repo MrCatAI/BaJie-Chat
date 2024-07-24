@@ -5,7 +5,7 @@ sentencepiece
 accelerate
 datasets
 transformers_stream_generator
-gradio
+gradio==4.13.0
 protobuf
 tritonclient[grpc]
 lmdeploy
